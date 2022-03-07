@@ -388,6 +388,45 @@
   </section>
 
   <!-- get updates / modal trigger -->
+  <section class="bg-light">
+    <div class="container">
+      <div class="text-center">
+        <h2>Stay in the loop</h2>
+        <p class="lead">Get the latest updates as they happen...</p>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+          <p class="text-muted my-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia sit veritatis voluptatibus deleniti! Ipsam nemo obcaecati delectus repellendus repellat consequatur ipsum laudantium aspernatur quaerat consectetur at accusantium rerum ea quod in ullam praesentium, amet id quidem quia minus doloremque odit! Nobis, nam. Laborum, exercitationem minima beatae culpa expedita explicabo distinctio.
+          </p>
+          <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reg-modal">
+            Register for updates
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- modal itself -->
+  <div class="modal fade" id="reg-modal" tabindex="-1" aria-labeledby="modal-title" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal-title">Get the Latest Updates</h5>
+          <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut odit obcaecati voluptatem soluta, fuga veritatis iste reiciendis quod reprehenderit perspiciatis sit ex libero cum porro placeat natus sint hic? Distinctio!</p>
+          <label for="modal-email" class="form-label">Your email address:</label>
+          <input type="email" class="form-control" id="modal-email" placeholder="e.g. mario@example.com">
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
